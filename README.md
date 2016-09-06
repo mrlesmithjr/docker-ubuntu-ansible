@@ -8,12 +8,10 @@ Ubuntu Docker image with Ansible pre-installed.
 Docker Info
 -----------
 Dockerfile
-````
+```
 #Ubuntu Docker image with Ansible
 
-#FROM ubuntu:12.04
 FROM ubuntu:14.04
-#FROM ubuntu
 
 MAINTAINER mrlesmithjr@gmail.com
 
@@ -27,8 +25,7 @@ RUN apt-get clean -y && \
     apt-get autoremove -y
 
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-````
+```
 
 License
 -------
